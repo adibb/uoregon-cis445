@@ -1,6 +1,7 @@
 /* External definitions for single-server queueing system, fixed run length. */
 
 #include <stdio.h>
+#include <stdlib.h>
 #include <math.h>
 #include "lcgrand.h"  /* Header file for random-number generator. */
 
@@ -23,7 +24,7 @@ void  update_time_avg_stats(void);
 float expon(float mean);
 
 
-main()  /* Main function. */
+int main()  /* Main function. */
 {
     /* Open input and output files. */
 

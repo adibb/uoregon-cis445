@@ -1,6 +1,7 @@
 /* External definitions for inventory system. */
 
 #include <stdio.h>
+#include <stdlib.h>
 #include <math.h>
 #include "lcgrand.h"  /* Header file for random-number generator. */
 
@@ -24,7 +25,7 @@ int   random_integer(float prob_distrib []);
 float uniform(float a, float b);
 
 
-main()  /* Main function. */
+int main()  /* Main function. */
 {
     int i, num_policies;
 
