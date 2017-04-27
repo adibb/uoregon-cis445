@@ -1,151 +1,151 @@
 Tandem-server queueing system
 
-Mean interarrival time           1.000 minutes
+Mean interarrival time           0.425 minutes
 
-Mean service time (server 1)     0.700 minutes
+Mean service time (server 1)     0.425 minutes
 
 Mean service time (server 2)     0.900 minutes
 
-Time cutoff                       1000 minutes
+Time cutoff                       2000 minutes
 
 
 
-Average delay in queue (1)       1.326 minutes
+Average delay in queue (1)       7.156 minutes
 
-Average delay in queue (2)      12.353 minutes
+Average delay in queue (2)     966.018 minutes
 
-Average number in queue (1)      1.331
+Average number in queue (1)     16.534
 
-Average number in queue (2)      3.865
+Average number in queue (2)   1184.668
 
-Server 1 utilization             0.689
+Server 1 utilization             0.957
 
-Server 2 utilization             0.858
+Server 2 utilization             1.000
 
-Time simulation ended         1000.138 minutes
+Time simulation ended         2000.229 minutes
 
-Average delay in queue (1)       0.861 minutes
+Average delay in queue (1)       7.065 minutes
 
-Average delay in queue (2)      15.204 minutes
+Average delay in queue (2)     467.917 minutes
 
-Average number in queue (1)      1.714
+Average number in queue (1)     32.972
 
-Average number in queue (2)      7.653
+Average number in queue (2)   1228.965
 
-Server 1 utilization             0.706
+Server 1 utilization             0.981
 
-Server 2 utilization             0.904
+Server 2 utilization             1.000
 
-Time simulation ended         1000.329 minutes
+Time simulation ended         2000.082 minutes
 
-Average delay in queue (1)       0.339 minutes
+Average delay in queue (1)       4.632 minutes
 
-Average delay in queue (2)       3.006 minutes
+Average delay in queue (2)     302.611 minutes
 
-Average number in queue (1)      0.966
+Average number in queue (1)     32.340
 
-Average number in queue (2)      3.421
+Average number in queue (2)   1246.587
 
-Server 1 utilization             0.595
+Server 1 utilization             0.986
 
-Server 2 utilization             0.798
+Server 2 utilization             1.000
 
-Time simulation ended         1000.048 minutes
+Time simulation ended         2000.217 minutes
 
-Average delay in queue (1)       0.328 minutes
+Average delay in queue (1)      14.764 minutes
 
-Average delay in queue (2)       8.535 minutes
+Average delay in queue (2)     203.754 minutes
 
-Average number in queue (1)      1.274
+Average number in queue (1)    142.515
 
-Average number in queue (2)      8.746
+Average number in queue (2)   1088.037
 
-Server 1 utilization             0.681
+Server 1 utilization             0.993
 
-Server 2 utilization             0.893
+Server 2 utilization             0.999
 
-Time simulation ended         1000.021 minutes
+Time simulation ended         2000.315 minutes
 
-Average delay in queue (1)       0.329 minutes
+Average delay in queue (1)       3.975 minutes
 
-Average delay in queue (2)       5.993 minutes
+Average delay in queue (2)     181.204 minutes
 
-Average number in queue (1)      1.565
+Average number in queue (1)     45.966
 
-Average number in queue (2)      7.807
+Average number in queue (2)   1179.129
 
-Server 1 utilization             0.703
+Server 1 utilization             0.997
 
-Server 2 utilization             0.910
+Server 2 utilization             0.999
 
-Time simulation ended         1000.345 minutes
+Time simulation ended         2000.234 minutes
 
-Average delay in queue (1)       0.262 minutes
+Average delay in queue (1)       5.673 minutes
 
-Average delay in queue (2)       2.859 minutes
+Average delay in queue (2)     160.763 minutes
 
-Average number in queue (1)      1.556
+Average number in queue (1)     80.825
 
-Average number in queue (2)      4.687
+Average number in queue (2)   1198.861
 
-Server 1 utilization             0.699
+Server 1 utilization             0.995
 
-Server 2 utilization             0.900
+Server 2 utilization             0.999
 
-Time simulation ended         1000.019 minutes
+Time simulation ended         2000.369 minutes
 
-Average delay in queue (1)       0.271 minutes
+Average delay in queue (1)       4.015 minutes
 
-Average delay in queue (2)       1.833 minutes
+Average delay in queue (2)     128.524 minutes
 
-Average number in queue (1)      1.885
+Average number in queue (1)     65.768
 
-Average number in queue (2)      4.610
+Average number in queue (2)   1180.347
 
-Server 1 utilization             0.679
+Server 1 utilization             0.987
 
-Server 2 utilization             0.890
+Server 2 utilization             1.000
 
-Time simulation ended         1000.234 minutes
+Time simulation ended         2000.062 minutes
 
-Average delay in queue (1)       0.217 minutes
+Average delay in queue (1)       1.545 minutes
 
-Average delay in queue (2)       1.642 minutes
+Average delay in queue (2)     112.166 minutes
 
-Average number in queue (1)      1.701
+Average number in queue (1)     28.870
 
-Average number in queue (2)      4.883
+Average number in queue (2)   1208.746
 
-Server 1 utilization             0.695
+Server 1 utilization             0.968
 
-Server 2 utilization             0.891
+Server 2 utilization             1.000
 
-Time simulation ended         1000.188 minutes
+Time simulation ended         2000.035 minutes
 
-Average delay in queue (1)       0.138 minutes
+Average delay in queue (1)       2.425 minutes
 
-Average delay in queue (2)       1.285 minutes
+Average delay in queue (2)     106.745 minutes
 
-Average number in queue (1)      1.215
+Average number in queue (1)     50.291
 
-Average number in queue (2)      3.745
+Average number in queue (2)   1109.217
 
-Server 1 utilization             0.652
+Server 1 utilization             0.986
 
-Server 2 utilization             0.848
+Server 2 utilization             0.996
 
-Time simulation ended         1000.011 minutes
+Time simulation ended         2000.058 minutes
 
-Average delay in queue (1)       0.125 minutes
+Average delay in queue (1)       2.302 minutes
 
-Average delay in queue (2)       2.690 minutes
+Average delay in queue (2)      93.270 minutes
 
-Average number in queue (1)      1.182
+Average number in queue (1)     54.272
 
-Average number in queue (2)      5.656
+Average number in queue (2)   1142.391
 
-Server 1 utilization             0.641
+Server 1 utilization             0.989
 
-Server 2 utilization             0.885
+Server 2 utilization             0.999
 
-Time simulation ended         1000.318 minutes
+Time simulation ended         2000.373 minutes

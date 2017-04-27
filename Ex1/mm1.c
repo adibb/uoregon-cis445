@@ -5,9 +5,9 @@
 #include <math.h>
 #include "lcgrand.h"  /* Header file for random-number generator. */
 
-#define Q_LIMIT 100  /* Limit on queue length. */
-#define BUSY      1  /* Mnemonics for server's being busy */
-#define IDLE      0  /* and idle. */
+#define Q_LIMIT 10000  /* Limit on queue length. */
+#define BUSY        1  /* Mnemonics for server's being busy */
+#define IDLE        0  /* and idle. */
 
 int   next_event_type, num_custs_delayed[2],
       num_time_max, num_events,
