@@ -21,7 +21,7 @@ float  area_num_in_queue[QUEUES], area_server_status[QUEUES],
        time_arrival[QUEUES][Q_LIMIT + 1],
        time_last_event[QUEUES], 
        total_of_delays[QUEUES];
-e_list *events; // DEVNOTE: Wonder if I could make it a matrix of event lists?
+e_list *events; // DEVNOTE: Wonder if I could make it an array of event lists?
 FILE   *infile, *outfile;
 
 void  initialize(void);
@@ -150,7 +150,6 @@ void initialize(void)  /* Initialization function. */
     /* Initialize the events priority queue. */
    
     free_list(events);
-    free_list(transit);
     events  = new_list();
 
     /* Initialize event list with one arrival in the first queue. */
@@ -222,7 +221,7 @@ void arrive(int queue_id)  /* Arrival event function. */
         {
             /* The queue has overflowed, so stop the simulation. */
 
-            fprintf(outfile, "\nOverflow of the array time_arrival at");
+            fprintf(outfile, "\nOverflow of the array num_in_queue at");
             fprintf(outfile, " time %f", sim_time);
             exit(2);
         }
@@ -280,10 +279,8 @@ void depart(int queue_id)  /* Departure event function. */
         /* Compute the delay of the customer who is beginning service and update
            the total delay accumulator. */
 
-        delay               = sim_time - time_arrival[queue_id][1];
-        if (delay < 0)
-            printf("Delay for customer is %f\n", delay);
-        total_of_delays[queue_id] += delay;
+        delay                       = sim_time - time_arrival[queue_id][1];        
+        total_of_delays[queue_id]   += delay;
 
         /* Increment the number of customers delayed, and schedule departure. */
 

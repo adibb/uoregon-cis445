@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include "pq.h"
 
 // Definition of an event node.
@@ -11,7 +12,6 @@ struct e_node {
 // Definition of an event list.
 struct e_list {
     e_node* head;
-    e_node* tail;
 };
 
 // Allocate a new event list.
@@ -19,7 +19,6 @@ e_list* new_list(){
     e_list *el;
     if ((el = (e_list *) malloc(sizeof(e_list))) != NULL) {
         el->head = NULL;
-        el->tail = NULL;
     }
     return el;
 }
@@ -45,12 +44,16 @@ void push(e_list *el, float time, int type){
         en->next = NULL;
     }
     
-    // Add it to the head of the list and bubble down
+    // Insertion sort
     // DEVNOTE: Replace with faster implementation if there's time.
     if (el->head == NULL){
         el->head = en;
-        el->tail = en;
+    } else if (en->time < el->head->time) {
+        // Supplant the head entirely
+        en->next = el->head;
+        el->head = en;
     } else {
+        // Find the insertion point the new node fits behind
         e_node *insertion = el->head;
         while (insertion->next != NULL && insertion->next->time < en->time){
             insertion = insertion->next;
@@ -71,6 +74,16 @@ e_node* pop(e_list *el){
     el->head = result->next;
     result->next = NULL;
     return result;
+}
+
+// Print the queue
+void print_list(e_list *el){
+    e_node *en = el->head;
+    while (en != NULL){
+        printf("Event %d at %f -> ", en->type, en->time);
+        en = en->next;
+    }
+    printf("NULL\n");
 }
 
 // Get the event time from a node.

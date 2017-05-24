@@ -14,191 +14,191 @@ Time cutoff                       1000 minutes
 
 
 
-Average delay in queue (1)       1.194 minutes
+Average delay in queue (1)       1.003 minutes
 
-Average delay in queue (2)       4.894 minutes
+Average delay in queue (2)       4.749 minutes
 
-Average number in queue (1)      1.030
+Average number in queue (1)      0.942
 
-Average number in queue (2)      4.460
+Average number in queue (2)      4.208
 
-Server 1 utilization             0.721
+Server 1 utilization             0.647
 
-Server 2 utilization             0.853
+Server 2 utilization             0.806
 
-Average number in transit        2.653
+Average number in transit        2.923
 
-Most in transit                      5
+Most in transit                      7
 
-Time simulation ended         1001.104 minutes
-
-
-Average delay in queue (1)       0.769 minutes
-
-Average delay in queue (2)       2.682 minutes
-
-Average number in queue (1)      1.419
-
-Average number in queue (2)      4.940
-
-Server 1 utilization             0.724
-
-Server 2 utilization             0.878
-
-Average number in transit        2.713
-
-Most in transit                      5
-
-Time simulation ended         1000.183 minutes
+Time simulation ended         1000.324 minutes
 
 
-Average delay in queue (1)       0.296 minutes
+Average delay in queue (1)       0.706 minutes
 
-Average delay in queue (2)       0.762 minutes
+Average delay in queue (2)       2.325 minutes
 
-Average number in queue (1)      0.736
+Average number in queue (1)      1.359
 
-Average number in queue (2)      1.898
+Average number in queue (2)      4.133
 
-Server 1 utilization             0.652
+Server 1 utilization             0.653
 
-Server 2 utilization             0.708
+Server 2 utilization             0.817
 
-Average number in transit        2.624
+Average number in transit        2.941
 
-Most in transit                      5
+Most in transit                      6
 
-Time simulation ended         1000.025 minutes
+Time simulation ended         1000.139 minutes
 
 
-Average delay in queue (1)       0.530 minutes
+Average delay in queue (1)       0.748 minutes
 
-Average delay in queue (2)       3.306 minutes
+Average delay in queue (2)       2.501 minutes
 
-Average number in queue (1)      1.993
+Average number in queue (1)      2.256
 
-Average number in queue (2)     13.058
+Average number in queue (2)      7.501
+
+Server 1 utilization             0.683
+
+Server 2 utilization             0.852
+
+Average number in transit        2.988
+
+Most in transit                      8
+
+Time simulation ended         1000.048 minutes
+
+
+Average delay in queue (1)       0.286 minutes
+
+Average delay in queue (2)       0.877 minutes
+
+Average number in queue (1)      1.086
+
+Average number in queue (2)      3.039
+
+Server 1 utilization             0.658
+
+Server 2 utilization             0.770
+
+Average number in transit        2.852
+
+Most in transit                      6
+
+Time simulation ended         1000.015 minutes
+
+
+Average delay in queue (1)       0.298 minutes
+
+Average delay in queue (2)       1.386 minutes
+
+Average number in queue (1)      1.482
+
+Average number in queue (2)      6.418
+
+Server 1 utilization             0.665
+
+Server 2 utilization             0.827
+
+Average number in transit        2.953
+
+Most in transit                      6
+
+Time simulation ended         1000.189 minutes
+
+
+Average delay in queue (1)       0.264 minutes
+
+Average delay in queue (2)       1.092 minutes
+
+Average number in queue (1)      1.568
+
+Average number in queue (2)      6.047
 
 Server 1 utilization             0.678
 
-Server 2 utilization             0.903
+Server 2 utilization             0.853
 
-Average number in transit        2.639
+Average number in transit        2.948
 
-Most in transit                      5
+Most in transit                      7
 
-Time simulation ended         1000.503 minutes
-
-
-Average delay in queue (1)       0.302 minutes
-
-Average delay in queue (2)       0.631 minutes
-
-Average number in queue (1)      1.264
-
-Average number in queue (2)      2.706
-
-Server 1 utilization             0.713
-
-Server 2 utilization             0.777
-
-Average number in transit        2.859
-
-Most in transit                      6
-
-Time simulation ended         1000.255 minutes
+Time simulation ended         1000.511 minutes
 
 
-Average delay in queue (1)       0.321 minutes
+Average delay in queue (1)       0.328 minutes
 
-Average delay in queue (2)       1.803 minutes
+Average delay in queue (2)       1.220 minutes
 
-Average number in queue (1)      1.758
+Average number in queue (1)      2.276
 
-Average number in queue (2)     10.353
+Average number in queue (2)      8.005
 
-Server 1 utilization             0.704
+Server 1 utilization             0.695
 
-Server 2 utilization             0.855
+Server 2 utilization             0.913
 
-Average number in transit        2.772
+Average number in transit        2.947
 
-Most in transit                      6
+Most in transit                      7
 
-Time simulation ended         1000.237 minutes
-
-
-Average delay in queue (1)       0.193 minutes
-
-Average delay in queue (2)       1.825 minutes
-
-Average number in queue (1)      1.165
-
-Average number in queue (2)     12.305
-
-Server 1 utilization             0.667
-
-Server 2 utilization             0.887
-
-Average number in transit        2.706
-
-Most in transit                      5
-
-Time simulation ended         1000.001 minutes
+Time simulation ended         1000.065 minutes
 
 
-Average delay in queue (1)       0.231 minutes
+Average delay in queue (1)       0.147 minutes
 
-Average delay in queue (2)       0.963 minutes
+Average delay in queue (2)       0.564 minutes
 
-Average number in queue (1)      1.590
+Average number in queue (1)      1.154
 
-Average number in queue (2)      7.158
+Average number in queue (2)      4.006
 
-Server 1 utilization             0.750
+Server 1 utilization             0.635
 
-Server 2 utilization             0.880
+Server 2 utilization             0.788
 
-Average number in transit        2.733
+Average number in transit        2.800
 
-Most in transit                      5
+Most in transit                      7
 
-Time simulation ended         1000.693 minutes
+Time simulation ended         1000.236 minutes
 
 
-Average delay in queue (1)       0.145 minutes
+Average delay in queue (1)       0.095 minutes
 
-Average delay in queue (2)       0.763 minutes
+Average delay in queue (2)       0.337 minutes
 
-Average number in queue (1)      1.102
+Average number in queue (1)      0.882
 
-Average number in queue (2)      6.352
+Average number in queue (2)      2.558
 
-Server 1 utilization             0.672
+Server 1 utilization             0.662
 
-Server 2 utilization             0.823
+Server 2 utilization             0.755
 
-Average number in transit        2.578
+Average number in transit        2.843
+
+Most in transit                      7
+
+Time simulation ended         1000.071 minutes
+
+
+Average delay in queue (1)       0.185 minutes
+
+Average delay in queue (2)       0.651 minutes
+
+Average number in queue (1)      1.768
+
+Average number in queue (2)      5.934
+
+Server 1 utilization             0.727
+
+Server 2 utilization             0.867
+
+Average number in transit        3.060
 
 Most in transit                      5
 
-Time simulation ended         1000.081 minutes
-
-
-Average delay in queue (1)       0.099 minutes
-
-Average delay in queue (2)       0.506 minutes
-
-Average number in queue (1)      0.802
-
-Average number in queue (2)      4.471
-
-Server 1 utilization             0.636
-
-Server 2 utilization             0.835
-
-Average number in transit        2.590
-
-Most in transit                      6
-
-Time simulation ended         1000.113 minutes
+Time simulation ended         1000.288 minutes

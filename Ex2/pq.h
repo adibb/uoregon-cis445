@@ -17,6 +17,8 @@ void    push(e_list*, float, int);
 e_node* peek(e_list*);
 e_node* pop(e_list*);
 
+void    print_list(e_list*);
+
 float   get_event_time(e_node*);
 int     get_event_type(e_node*);
 int     is_empty(e_list*);
